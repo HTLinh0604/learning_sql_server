@@ -7,3 +7,8 @@ FROM [dbo].[Products];
 -- giá bán mỗi đơn vị, số lượng mỗi đơn vị
 SELECT [ProductName], [UnitPrice],[QuantityPerUnit]
 FROM [dbo].[Products];
+
+
+-- lấy tên công ty của khách hàng và quốc gia
+SELECT [CompanyName], [Country] -- SELECT CompanyName, Country
+FROM [dbo].[Customers]; -- FROM dbo.Customers
