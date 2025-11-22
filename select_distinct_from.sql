@@ -1,4 +1,5 @@
 -- lay cac country khac nhau
+USE [NORTHWND_NEW];
 select distinct Country
 from Customers
 
