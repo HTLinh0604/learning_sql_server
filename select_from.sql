@@ -35,3 +35,15 @@ SELECT [ProductName], [UnitPrice]
 FROM [dbo].[Products]
 ORDER BY [UnitPrice] DESC
 
+-- lấy all col
+SELECT *
+FROM dbo.Products
+
+-- lấy all col of customers
+select *
+from dbo.Customers
+
+-- bai tap
+-- lay all col of suppliers
+select *
+from dbo.Suppliers
