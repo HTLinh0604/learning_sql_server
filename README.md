@@ -1,1 +1,1 @@
-# learning_sql_server
+# A collection of T-SQL scripts and exercises for practicing and mastering SQL Server concepts.
