@@ -24,3 +24,8 @@ order by de.Quantity desc
 select o.OrderID, o.OrderDate
 from Orders as o
 order by o.OrderDate desc
+
+-- liet ke productname, unitprice, unitslstock of table products desc unitslnstock
+select p.ProductName, p.UnitPrice, p.UnitsInStock
+from Products as p 
+order by p.UnitsInStock desc
