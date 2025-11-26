@@ -13,3 +13,20 @@ where c.CompanyName like 'H_%';
 select o.ShipCity
 from  Orders as o 
 where o.ShipCity like 'L[u,o]%' ;
+
+-- loc ra cac city bat dau bang L, ky tu 2 ko co o, u
+select o.ShipCity
+from Orders as o
+where o.ShipCity like 'L[^(u,o)]%'
+
+-- loc ra cac city bat dau bang L, ky tu 2 tu a den e
+select o.ShipCity
+from Orders as o
+where o.ShipCity like 'L[a-e]%'
+
+
+-- lay ra all nha cc co ten cty bat dau bang chu A va khong chua ky tu b
+select s.CompanyName
+from Suppliers as s
+
+where s.CompanyName like 'A[^b]%'
