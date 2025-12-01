@@ -6,3 +6,4 @@ where exists (
     from orders as b
     where a.CustomerID = b.CustomerID
 )
+
